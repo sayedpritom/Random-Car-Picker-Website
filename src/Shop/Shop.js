@@ -24,7 +24,7 @@ const Shop = () => {
         if (cart.length > 0) {
             const randomNumber = Math.round(Math.random() * cart.length);
 
-            setChosenItem(cart[randomNumber])
+            setChosenItem(cart[randomNumber]);
             console.log(chosenItem, randomNumber);
         }
     }
@@ -44,7 +44,10 @@ const Shop = () => {
                 }
                 <hr />
                 <button onClick={() => chooseOne()}>Choose one for me</button> <br />
-                <button onClick={() => setCart([])}>Choose again</button>
+                <button onClick={() => {
+                    setCart([]);
+                    setChosenItem([])
+                }}>Choose again</button>
             </div>
         </div>
     );
