@@ -1,8 +1,6 @@
-# Getting Started with Create React App
+# Honda The Power of dreams
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-## Available Scripts
+## Website: https://earnest-chebakia-16168d.netlify.app/
 
 In the project directory, you can run:
 
