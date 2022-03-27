@@ -1,0 +1,66 @@
+.car {
+    width: 30%;
+    max-width: 350px;
+    min-height: 200px;
+    max-height: auto;
+    background-color: white;
+    margin: 50px 15px;
+    border-radius: 5px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.car img {
+    width: 70%;
+    max-width: 250px;
+    display: block;
+    margin: 0 auto;
+}
+.car .carInfo {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+.car .carInfo >* {
+    padding: 10px;
+}
+
+.addToCartBtn {
+    display: flex;
+    justify-content: end;
+    align-items: end;
+}
+
+.addToCartBtn button {
+    cursor: pointer;
+    font-weight: 500;
+    color: #276DC6;
+    background-color: white;
+    border: 1px solid #276DC6;
+    padding: 20px;
+    border-radius: 20px 0 0 0;
+}
+
+.addToCartBtn button:hover {
+    color: white;
+    background-color: #276DC6;
+}
+
+/* Responsive styles */
+
+@media only screen and (max-width: 1286px) {
+    .car {
+        width: 45%;
+        max-width: 450px;
+    }
+}
+
+@media only screen and (max-width: 864px) {
+    .car {
+        width: 100%;
+        max-width: 500px;
+    }
+}

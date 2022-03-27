@@ -1,0 +1,26 @@
+name, price, id, image
+9-12
+useCart icon
+
+
+selected Clothes
+image, name delete btn(optional)
+btn: choose 1 for me(random selection among selected)
+btn: choose again
+responsive
+
+
+bonus: 
+destructuring
+6 commits
+readme file: rename name, live website link, project description(optional) 
+btn: choose again
+
+questions: how react works, props vs state, how useState works
+
+optionals: 
+not adding same item twice
+can't add more than 4 items
+
+
+

@@ -1,0 +1,98 @@
+[
+    {
+        "id": 1,
+        "name": "2022 Civic Sedan",
+        "year": 2018,
+        "mpg": "38/30",
+        "price": "23,350",
+        "image": "https://motorhaat.com/wp-content/uploads/2020/05/honda-civic.jpg"
+    },
+    {
+        "id": 2,
+        "name": "Honda CR-V",
+        "year": 2022,
+        "mpg": "38/30",
+        "price": "23,350",
+        "image": "https://www.motortrend.com/uploads/sites/10/2021/11/2022-honda-cr-v-lx-suv-angular-front.png"
+    },
+    {
+        "id": 3,
+        "name": "Honda Accord",
+        "year": 2020,
+        "mpg": "38/30",
+        "price": "23,350",
+        "image": "https://images.hgmsites.net/med/2022-honda-accord-sport-se-1-5t-cvt-angular-front-exterior-view_100818911_m.jpg"
+    },
+    {
+        "id": 4,
+        "name": "Honda City",
+        "year": 2020,
+        "mpg": "38/30",
+        "price": "23,350",
+        "image": "https://www.ccarprice.com/products/Honda-City-Aspire-1.5L-i-VT.jpg"
+    },
+    {
+        "id": 5,
+        "name": "Honda Vezel",
+        "year": 2020,
+        "mpg": "38/30",
+        "price": "23,350",
+        "image": "https://edmundmotor.com.sg/wp-content/uploads/2021/05/honda-vezel-2021.png"
+    },
+    {
+        "id": 6,
+        "name": "Honda Clarity Fuel Cell",
+        "year": 2020,
+        "mpg": "38/30",
+        "price": "23,350",
+        "image": "https://www.ccarprice.com/products/Honda_Clarity_Fuel_Cell_2022.jpg"
+    },
+    {
+        "id": 7,
+        "name": "Honda Odyssey",
+        "year": 2020,
+        "mpg": "38/30",
+        "price": "23,350",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR8q4UWRK-jsaVgH5hINGdWVvjxrwq-f-tGqhP_u31b-pLPFEho6aTGTZ0gVhWL_4-ZjH8&usqp=CAU"
+    },
+    {
+        "id": 8,
+        "name": "Honda Ridgeline",
+        "year": 2020,
+        "mpg": "38/30",
+        "price": "23,350",
+        "image": "https://s3.us-east-2.amazonaws.com/dealer-inspire-vps-vehicle-images/11002297/thumbnails/large/5FPYK3F75NB019081/6a19c028f52b95cb9162c4c6f928ab2f.png"
+    },
+    {
+        "id": 9,
+        "name": "Honda Civic Type R",
+        "year": 2020,
+        "mpg": "38/30",
+        "price": "33,350",
+        "image": "https://www.ccarprice.com/products/Honda-Civic-Type-R-2022.jpg"
+    },
+    {
+        "id": 10,
+        "name": "Honda NSX",
+        "year": 2020,
+        "mpg": "38/30",
+        "price": "33,350",
+        "image": "https://carsguide-res.cloudinary.com/image/upload/f_auto,fl_lossy,q_auto,t_default/v1/editorial/vhs/Honda-NSX.png"
+    },
+    {
+        "id": 11,
+        "name": "Honda F1",
+        "year": 2020,
+        "mpg": "38/30",
+        "price": "12m",
+        "image": "https://i.pinimg.com/736x/15/5a/ef/155aeffaa76a551651266256032540f1.jpg"
+    },
+    {
+        "id": 12,
+        "name": "Honda Jet",
+        "year": 2020,
+        "mpg": "38/30",
+        "price": "4m",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQcHlqVWpou_3FTNOhCJ4VVCkQKlz561_OUkA&usqp=CAU"
+    }
+]
