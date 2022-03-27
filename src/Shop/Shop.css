@@ -43,7 +43,7 @@
   box-sizing: border-box;
 }
 
-/* Responsive Styles */
+/* Responsive Styles Section*/
 
 @media only screen and (max-width: 864px) {
     .car-container {
