@@ -20,6 +20,11 @@ const Shop = () => {
         setCart([...cart, car])
     }
 
+    function removeFromCart(car) {
+        let newCart = cart.filter(item => item.id !== car.id);
+        setCart(newCart)
+    }
+
     function chooseOne() {
         if (cart.length > 0) {
             const randomNumber = Math.round(Math.random() * cart.length);
@@ -40,11 +45,11 @@ const Shop = () => {
                 <hr />
                 {chosenItem && <ChosenItem chosenItem={chosenItem}></ChosenItem> }
                 {
-                    cart.map(car => <Cart car={car} key={car.id}></Cart>)
+                    cart.map(car => <Cart car={car} removeFromCart={removeFromCart} key={car.id}></Cart>)
                 }
                 <hr />
-                <button onClick={() => chooseOne()}>Choose one for me</button> <br />
-                <button onClick={() => {
+                <button className='chooseBtn' onClick={() => chooseOne()}>Choose one for me</button> <br />
+                <button className='chooseBtn' onClick={() => {
                     setCart([]);
                     setChosenItem([])
                 }}>Choose again</button>

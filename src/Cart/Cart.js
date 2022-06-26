@@ -12,7 +12,7 @@ const Cart = (props) => {
                 <img src={props.car.image} alt="" />
             </div>
             <h5>{props.car.name}</h5>
-            <FontAwesomeIcon icon={faTrash} />
+            <button className="deleteBtn" onClick={() => props.removeFromCart(props.car)}><FontAwesomeIcon icon={faTrash} /></button>
         </div>
     );
 };

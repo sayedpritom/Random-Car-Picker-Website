@@ -1,10 +1,25 @@
 .cart {
     display: flex;
     align-items: center;
-    width: 90%;
+    width: 85%;
     margin: 0 auto;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 .cart img {
     width: 100px;
+}
+
+.deleteBtn {
+    height: auto;
+    width: auto;
+    background-color: white;
+    border: none;
+    padding: 5px 10px;
+}
+
+.deleteBtn:hover {
+    background-color: #CC0000;
+    color: white;
+    border-radius: 5px;
+    box-sizing: border-box;
 }

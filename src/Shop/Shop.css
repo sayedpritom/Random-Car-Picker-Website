@@ -21,7 +21,7 @@
     border-radius: 5px;
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
-.cart-container button {
+.chooseBtn {
   background-color: #FFFFFF;
   border: 1px solid #222222;
   border-radius: 8px;
@@ -35,7 +35,7 @@
   margin: 10px;
   width: 80%;
 }
-.cart-container button:hover {
+.chooseBtn:hover {
   background-color: #CC0000;
   border: 1px solid #690000;
   color: white;
