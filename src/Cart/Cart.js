@@ -5,7 +5,6 @@ import { faTrash } from '@fortawesome/free-solid-svg-icons';
 
 
 const Cart = (props) => {
-    console.log(props.car);
     return (
         <div className='cart'>
             <div>
